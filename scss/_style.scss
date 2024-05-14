@@ -1,0 +1,26 @@
+.home-logo {
+    width: 24px;
+    height: 272px;
+    display: flex;
+    margin-right: 15px;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    .line {
+      width: 1px;
+      height: 104px;
+      background-color: #c8ccd8;
+    }
+    .home {
+      font-family: League Spartan;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 18px;
+      text-align: left;
+      color: #c8ccd8;
+      transform: rotate(90deg);
+      margin-top: 98px;
+    }
+  }
+    
