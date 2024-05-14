@@ -340,4 +340,151 @@ main .small .team button p {
   line-height: 25px;
   text-align: right;
   color: white;
+}
+main .featured {
+  margin-top: 200px;
+  margin-bottom: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .featured h2 {
+  font-family: League Spartan;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -2px;
+  text-align: left;
+}
+main .featured button p {
+  font-family: League Spartan;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: right;
+  color: white;
+}
+main .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+}
+main .card .de-sol {
+  width: 100%;
+  max-width: 350px;
+  height: 560px;
+  background-image: url(../img/de-sol.png);
+  background-repeat: no-repeat;
+}
+main .card .de-sol h5 {
+  font-family: League Spartan;
+  font-size: 250px;
+  font-weight: 700;
+  line-height: 200px;
+  letter-spacing: -5px;
+  text-align: right;
+  color: #ffffff;
+  opacity: 50%;
+  margin-top: 45px;
+  margin-right: -16px;
+  margin-bottom: 212px;
+}
+main .card .de-sol .info {
+  margin-left: 40px;
+}
+main .card .de-sol .info h4 {
+  font-family: League Spartan;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  color: #fff;
+}
+main .card .de-sol .info p {
+  font-family: League Spartan;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
+}
+main .card .tower {
+  width: 100%;
+  max-width: 350px;
+  height: 560px;
+  background-image: url(../img/tower.png);
+  background-repeat: no-repeat;
+}
+main .card .tower h5 {
+  font-family: League Spartan;
+  font-size: 250px;
+  font-weight: 700;
+  line-height: 200px;
+  letter-spacing: -5px;
+  text-align: right;
+  color: #ffffff;
+  opacity: 50%;
+  margin-top: 45px;
+  margin-right: -16px;
+  margin-bottom: 212px;
+}
+main .card .tower .info {
+  margin-left: 40px;
+}
+main .card .tower .info h4 {
+  font-family: League Spartan;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  color: #fff;
+}
+main .card .tower .info p {
+  font-family: League Spartan;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
+}
+main .card .prototype {
+  width: 100%;
+  max-width: 350px;
+  height: 560px;
+  background-repeat: no-repeat;
+  background-image: url(../img/protaype.png);
+}
+main .card .prototype h5 {
+  font-family: League Spartan;
+  font-size: 250px;
+  font-weight: 700;
+  line-height: 200px;
+  letter-spacing: -5px;
+  text-align: right;
+  color: #ffffff;
+  opacity: 50%;
+  margin-top: 45px;
+  margin-right: -16px;
+  margin-bottom: 212px;
+}
+main .card .prototype .info {
+  margin-left: 40px;
+}
+main .card .prototype .info h4 {
+  font-family: League Spartan;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  color: #fff;
+}
+main .card .prototype .info p {
+  font-family: League Spartan;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
 }/*# sourceMappingURL=import.css.map */

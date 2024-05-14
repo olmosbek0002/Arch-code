@@ -193,6 +193,155 @@ main{
           }
         }
     }
+    .featured {
+        margin-top: 200px;
+        margin-bottom: 64px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2 {
+          font-family: League Spartan;
+          font-size: 72px;
+          font-weight: 700;
+          line-height: 64px;
+          letter-spacing: -2px;
+          text-align: left;
+        }
+        button {
+          p {
+            font-family: League Spartan;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 25px;
+            text-align: right;
+            color: #ffff;
+          }
+        }
+    }
+    .card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 5px;
+    
+        .de-sol {
+          width: 100%;
+          max-width: 350px;
+          height: 560px;
+          background-image: url(../img/de-sol.png);
+          background-repeat: no-repeat;
+          h5 {
+            font-family: League Spartan;
+            font-size: 250px;
+            font-weight: 700;
+            line-height: 200px;
+            letter-spacing: -5px;
+            text-align: right;
+            color: #ffffff;
+            opacity: 50%;
+            margin-top: 45px;
+            margin-right: -16px;
+            margin-bottom: 212px;
+          }
+          .info {
+            margin-left: 40px;
+            h4 {
+              font-family: League Spartan;
+              font-size: 32px;
+              font-weight: 700;
+              line-height: 40px;
+              text-align: left;
+              color: #fff;
+            }
+            p {
+              font-family: League Spartan;
+              font-size: 18px;
+              font-weight: 500;
+              line-height: 24px;
+              text-align: left;
+              color: #fff;
+            }
+          }
+        }
+        .tower {
+          width: 100%;
+          max-width: 350px;
+          height: 560px;
+          background-image: url(../img/tower.png);
+          background-repeat: no-repeat;
+          h5 {
+            font-family: League Spartan;
+            font-size: 250px;
+            font-weight: 700;
+            line-height: 200px;
+            letter-spacing: -5px;
+            text-align: right;
+            color: #ffffff;
+            opacity: 50%;
+            margin-top: 45px;
+            margin-right: -16px;
+            margin-bottom: 212px;
+          }
+          .info {
+            margin-left: 40px;
+            h4 {
+              font-family: League Spartan;
+              font-size: 32px;
+              font-weight: 700;
+              line-height: 40px;
+              text-align: left;
+              color: #fff;
+            }
+            p {
+              font-family: League Spartan;
+              font-size: 18px;
+              font-weight: 500;
+              line-height: 24px;
+              text-align: left;
+              color: #fff;
+            }
+          }
+        }
+        .prototype {
+          width: 100%;
+          max-width: 350px;
+          height: 560px;
+          background-repeat: no-repeat;
+          background-image: url(../img/protaype.png);
+          h5 {
+            font-family: League Spartan;
+            font-size: 250px;
+            font-weight: 700;
+            line-height: 200px;
+            letter-spacing: -5px;
+            text-align: right;
+            color: #ffffff;
+            opacity: 50%;
+            margin-top: 45px;
+            margin-right: -16px;
+            margin-bottom: 212px;
+          }
+          .info {
+            margin-left: 40px;
+            h4 {
+              font-family: League Spartan;
+              font-size: 32px;
+              font-weight: 700;
+              line-height: 40px;
+              text-align: left;
+              color: #fff;
+            }
+            p {
+              font-family: League Spartan;
+              font-size: 18px;
+              font-weight: 500;
+              line-height: 24px;
+              text-align: left;
+              color: #fff;
+            }
+          }
+        }
+    }
 }
 
     
