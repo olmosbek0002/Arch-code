@@ -113,4 +113,34 @@ a {
   color: #c8ccd8;
   transform: rotate(90deg);
   margin-top: 98px;
+}
+
+header {
+  padding: 56px 0px;
+}
+header nav {
+  width: 100%;
+  max-width: 504px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  width: 100%;
+  max-width: 313px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul li a {
+  font-family: League Spartan;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  color: #c8ccd8;
+}
+header nav ul li a:hover {
+  cursor: pointer;
+  color: #1b1d23;
 }/*# sourceMappingURL=import.css.map */
