@@ -35,8 +35,27 @@ a{
     max-width: 1314px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
     column-gap: 72px;
     
     
+}
+.btn-our{
+    width: 252px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 0 34.5px;
+    column-gap: 24px;
+    background-color: #1B1D23;
+    border: 0;
+    &:hover{
+        cursor: pointer;
+        background-color: #60636D;
+    }
+        
+    &:active{
+        background-color: #C8CCD8;
+    }
+            
 }

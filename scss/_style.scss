@@ -53,5 +53,53 @@ header {
         }
       }
     }
-  }
+}
+.project {
+    background-image: url(../img/Project.png);
+    background-repeat: no-repeat;
+    height: 720px;
+
+    .project-info {
+      padding-left: 190px;
+      padding-top: 186px;
+      width: 100%;
+      max-width: 544px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      h1 {
+        font-family: League Spartan;
+        font-size: 96px;
+        font-weight: 700;
+        line-height: 80px;
+        letter-spacing: -2px;
+        text-align: left;
+        color: #fff;
+        margin-bottom: 10px;
+      }
+      p {
+        width: 100%;
+        max-width: 445px;
+        font-family: League Spartan;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+        color: #fff;
+      }
+      button {
+        margin-top: 41px;
+      }
+    }
+    
+      p {
+        font-family: League Spartan;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        text-align: right;
+      }
+}
+
     
