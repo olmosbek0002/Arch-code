@@ -343,5 +343,59 @@ main{
         }
     }
 }
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #eeeff4 90%, #fff 90%);
+    margin-top: 200px;
+    nav {
+      width: 100%;
+      max-width: 598px;
+      display: flex;
+      align-items: center;
+      column-gap: 85px;
+      .div-arch {
+        width: 200px;
+        height: 200px;
+        background-color: #1b1d23;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      ul {
+        width: 100%;
+        max-width: 313px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li {
+          a {
+            font-family: League Spartan;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 25px;
+            text-align: left;
+            color: #c8ccd8;
+            &:hover {
+              cursor: pointer;
+              color: #1b1d23;
+            }
+          }
+        }
+      }
+    }
+    button {
+      p {
+        font-family: League Spartan;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        text-align: right;
+        color: #fff;
+      }
+    }
+}
+  
 
     
