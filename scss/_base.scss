@@ -86,3 +86,20 @@ a{
     }
              
 }
+.btn-about-us{
+    padding: 25px 32px 22px 35px;
+    display: flex;
+    column-gap: 24px;
+    background-color: #1B1D23;
+    border: 0;
+    &:hover{
+        cursor: pointer;
+        background-color: #60636D;
+    }
+
+    &:active{
+        background-color: #C8CCD8 ;
+
+    }
+        
+}

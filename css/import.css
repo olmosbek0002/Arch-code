@@ -133,6 +133,22 @@ a {
   color: white;
 }
 
+.btn-about-us {
+  padding: 25px 32px 22px 35px;
+  display: flex;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+  background-color: #1B1D23;
+  border: 0;
+}
+.btn-about-us:hover {
+  cursor: pointer;
+  background-color: #60636D;
+}
+.btn-about-us:active {
+  background-color: #C8CCD8;
+}
+
 .home-logo {
   width: 24px;
   height: 272px;
@@ -241,4 +257,87 @@ header nav ul li a:hover {
   display: flex;
   margin-left: 22px;
   transform: translateY(-80px);
+}
+
+main .studio {
+  margin-top: 28px;
+  background-image: url(../img/studio.png);
+  background-size: 375px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+main .studio h2 {
+  font-family: League Spartan;
+  font-size: 250px;
+  line-height: 200px;
+  letter-spacing: -5px;
+  text-align: left;
+  color: #eeeff4;
+  margin-left: 20px;
+}
+main .studio .studio-info {
+  transform: translateY(-30px);
+  margin-left: 189px;
+  width: 100%;
+  max-width: 446px;
+}
+main .studio .studio-info h3 {
+  font-family: League Spartan;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -2px;
+  text-align: left;
+  color: #1b1d23;
+  padding-bottom: 43px;
+}
+main .studio .studio-info .pragraph {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+main .studio .studio-info .pragraph p {
+  font-family: League Spartan;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #60636d;
+}
+main .small {
+  margin-top: 200px;
+  background-repeat: no-repeat;
+  height: 560px;
+  background-image: url(../img/small-team.png);
+  background-position: right top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .small .team {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 27px;
+  width: 100%;
+  max-width: 445px;
+  margin-left: 190px;
+  margin-top: 167px;
+}
+main .small .team h3 {
+  font-family: League Spartan;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -2px;
+  text-align: left;
+  color: #ffffff;
+}
+main .small .team button p {
+  font-family: League Spartan;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: right;
+  color: white;
 }/*# sourceMappingURL=import.css.map */

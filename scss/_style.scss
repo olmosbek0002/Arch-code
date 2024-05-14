@@ -108,5 +108,91 @@ header {
     margin-left: 22px;
     transform: translateY(-80px);
 }
+main{
+    .studio {
+        margin-top: 28px;
+        background-image: url(../img/studio.png);
+        background-size: 375px;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        h2 {
+          font-family: League Spartan;
+          font-size: 250px;
+          line-height: 200px;
+          letter-spacing: -5px;
+          text-align: left;
+          color: #eeeff4;
+          margin-left: 20px;
+        }
+        .studio-info {
+          transform: translateY(-30px);
+          margin-left: 189px;
+          width: 100%;
+          max-width: 446px;
+          h3 {
+            font-family: League Spartan;
+            font-size: 72px;
+            font-weight: 700;
+            line-height: 64px;
+            letter-spacing: -2px;
+            text-align: left;
+            color: #1b1d23;
+            padding-bottom: 43px;
+          }
+          .pragraph {
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+            p {
+              font-family: League Spartan;
+              font-size: 18px;
+              font-weight: 500;
+              line-height: 24px;
+              text-align: left;
+              color: #60636d;
+            }
+          }
+        }
+    }
+    .small {
+        margin-top: 200px;
+        background-repeat: no-repeat;
+        height: 560px;
+        background-image: url(../img/small-team.png);
+        background-position: right top;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .team {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          row-gap: 27px;
+          width: 100%;
+          max-width: 445px;
+          margin-left: 190px;
+          margin-top: 167px;
+          h3 {
+            font-family: League Spartan;
+            font-size: 72px;
+            font-weight: 700;
+            line-height: 64px;
+            letter-spacing: -2px;
+            text-align: left;
+            color: #ffffff;
+          }
+          button {
+            p {
+              font-family: League Spartan;
+              font-size: 18px;
+              font-weight: 700;
+              line-height: 25px;
+              text-align: right;
+              color: #ffff;
+            }
+          }
+        }
+    }
+}
 
     
