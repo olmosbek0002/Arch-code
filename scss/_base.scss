@@ -59,3 +59,30 @@ a{
     }
             
 }
+.btn{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: League Spartan;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color: #7D828F;
+    background-color: #ffff;
+    border: 0;
+
+    &:hover{
+        cursor: pointer;
+        background-color: #EEEFF4;
+        color: #7D828F ;
+    }
+        
+    &:active{
+        background-color: #1B1D23;
+        color: #ffff ;
+    }
+             
+}

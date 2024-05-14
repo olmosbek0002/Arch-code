@@ -108,6 +108,31 @@ a {
   background-color: #C8CCD8;
 }
 
+.btn {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: League Spartan;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  color: #7D828F;
+  background-color: white;
+  border: 0;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #EEEFF4;
+  color: #7D828F;
+}
+.btn:active {
+  background-color: #1B1D23;
+  color: white;
+}
+
 .home-logo {
   width: 24px;
   height: 272px;
@@ -208,4 +233,12 @@ header nav ul li a:hover {
   font-weight: 700;
   line-height: 25px;
   text-align: right;
+}
+
+.section-btn {
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  margin-left: 22px;
+  transform: translateY(-80px);
 }/*# sourceMappingURL=import.css.map */
