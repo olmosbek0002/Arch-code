@@ -636,10 +636,12 @@ main .heritage .paragrif p {
   color: #60636D;
 }
 main .leaders {
+  margin-top: 200px;
   display: flex;
   justify-content: space-between;
 }
 main .leaders h4 {
+  width: 350px;
   font-family: League Spartan;
   font-size: 72px;
   font-weight: 700;
@@ -647,4 +649,60 @@ main .leaders h4 {
   letter-spacing: -2px;
   text-align: left;
   color: #1B1D23;
+}
+main .leaders .card {
+  width: 100%;
+  max-width: 730px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 63px;
+}
+main .leaders .card .list {
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+main .leaders .card .list article {
+  width: 100%;
+  max-width: 350px;
+}
+main .leaders .card .list article h5 {
+  margin-top: 15px;
+  font-family: League Spartan;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  color: #1B1D23;
+  width: 350px;
+}
+main .leaders .card .list article p {
+  font-family: League Spartan;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #1B1D23;
+  opacity: 75%;
+}
+main .leaders .card .list article div {
+  width: 100%;
+  max-width: 350px;
+  height: 320px;
+}
+main .leaders .card .list article .richards {
+  background-image: url(../img/Richards.png);
+  background-repeat: no-repeat;
+}
+main .leaders .card .list article .smith {
+  background-repeat: no-repeat;
+  background-image: url(../img/smith.png);
+}
+main .leaders .card .list article .rourke {
+  background-repeat: no-repeat;
+  background-image: url(../img/Rourke.png);
+}
+main .leaders .card .list article .simpson {
+  background-repeat: no-repeat;
+  background-image: url(../img/Simpson.png);
 }/*# sourceMappingURL=import.css.map */

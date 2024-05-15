@@ -105,9 +105,11 @@ main {
 
   }
   .leaders{
+    margin-top: 200px;
     display: flex;
     justify-content: space-between;
     h4{
+      width: 350px;
       font-family: League Spartan;
       font-size: 72px;
       font-weight: 700;
@@ -116,6 +118,69 @@ main {
       text-align: left;
       color: #1B1D23;
 
+    }
+    .card{
+      
+      width: 100%;
+      max-width: 730px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 63px;
+      .list{
+        display: flex;
+        column-gap: 30px;
+        article{
+          width: 100%;
+          max-width: 350px;
+          h5{
+            margin-top: 15px;
+            font-family: League Spartan;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 40px;
+            text-align: left;
+            color: #1B1D23;
+            // width: 100%;
+            width: 350px;
+
+          }
+          p{
+            font-family: League Spartan;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: left;
+            color: #1B1D23;
+            opacity: 75%;
+
+          }
+          div{
+            width:100%;
+            max-width: 350px;
+            height: 320px;
+
+          }
+          .richards{
+            
+            background-image:url(../img/Richards.png);
+            background-repeat: no-repeat;
+          }
+          .smith{
+
+            background-repeat:no-repeat;
+            background-image: url(../img/smith.png);
+          }
+          .rourke{
+            background-repeat:no-repeat;
+            background-image: url(../img/Rourke.png);
+
+          }
+          .simpson{
+            background-repeat:no-repeat;
+            background-image: url(../img/Simpson.png);
+          }
+        }
+      }
     }
   }
 }
