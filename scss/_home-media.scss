@@ -1,8 +1,38 @@
-@media(max-width:1300px){
+@media(max-width:1350px){
+    .contianer{
+        margin-left: 98px;
+        margin-right: 98px;
+    }
+    
+}
+@media(max-width:1010px){
     .section-btn{
-
         display: none;
     }
-  
-
+    main{
+        .studio{
+            background-image: none;
+            h2{
+                font-size: 120px;
+                letter-spacing: -3px;
+                margin-left: 0;
+            }
+            .studio-info{
+                margin-left: 0;
+                max-width: 100%;
+            }
+            
+        }
+        .card{
+            flex-direction: column;
+            align-items:flex-start;
+            row-gap: 24px;
+            div{
+                max-width: 1010px;
+                height: 240px;
+                background-size:cover;
+            }
+            
+    }
 }
+   

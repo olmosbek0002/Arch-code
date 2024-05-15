@@ -269,6 +269,7 @@ main .studio {
 main .studio h2 {
   font-family: League Spartan;
   font-size: 250px;
+  font-weight: 700px;
   line-height: 200px;
   letter-spacing: -5px;
   text-align: left;
@@ -372,10 +373,12 @@ main .card {
   -moz-column-gap: 5px;
        column-gap: 5px;
 }
-main .card .de-sol {
+main .card div {
   width: 100%;
   max-width: 350px;
   height: 560px;
+}
+main .card .de-sol {
   background-image: url(../img/de-sol.png);
   background-repeat: no-repeat;
 }
@@ -412,9 +415,6 @@ main .card .de-sol .info p {
   color: #fff;
 }
 main .card .tower {
-  width: 100%;
-  max-width: 350px;
-  height: 560px;
   background-image: url(../img/tower.png);
   background-repeat: no-repeat;
 }
@@ -451,9 +451,6 @@ main .card .tower .info p {
   color: #fff;
 }
 main .card .prototype {
-  width: 100%;
-  max-width: 350px;
-  height: 560px;
   background-repeat: no-repeat;
   background-image: url(../img/protaype.png);
 }
@@ -724,8 +721,45 @@ main .leaders .card .list article .simpson {
   background-image: url(../img/Simpson.png);
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1350px) {
+  .contianer {
+    margin-left: 98px;
+    margin-right: 98px;
+  }
+}
+@media (max-width: 1010px) {
   .section-btn {
     display: none;
+  }
+  main .studio {
+    background-image: none;
+  }
+  main .studio h2 {
+    font-size: 120px;
+    letter-spacing: -3px;
+    margin-left: 0;
+  }
+  main .studio .studio-info {
+    margin-left: 0;
+    max-width: 100%;
+  }
+  main .card {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 24px;
+  }
+  main .card div {
+    max-width: 1010px;
+    height: 240px;
+    background-size: cover;
+  }
+  main .card .de-sol {
+    background-image: url(../img/de-sol-tablet.png);
+  }
+  main .card .tower {
+    background-image: url(../img/tover-tablet.png);
+  }
+  main .card .prototype {
+    background-image: url(../img/protaype-tablet.png);
   }
 }/*# sourceMappingURL=import.css.map */

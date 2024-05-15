@@ -7,6 +7,7 @@
   align-items: center;
   position: fixed;
   padding-left: 15px;
+  
   .line {
     width: 1px;
     height: 104px;
@@ -23,6 +24,7 @@
     transform: rotate(90deg);
     margin-top: 98px;
   }
+
 }
 header {
   padding: 56px 0px;
@@ -117,10 +119,11 @@ main {
     background-size: 375px;
     background-position: right bottom;
     background-repeat: no-repeat;
-    // background-size: cover;
+    
     h2 {
       font-family: League Spartan;
       font-size: 250px;
+      font-weight: 700px;
       line-height: 200px;
       letter-spacing: -5px;
       text-align: left;
@@ -227,11 +230,14 @@ main {
     justify-content: space-between;
     align-items: center;
     column-gap: 5px;
-
-    .de-sol {
+    div{
       width: 100%;
       max-width: 350px;
       height: 560px;
+    }
+
+    .de-sol {
+      
       background-image: url(../img/de-sol.png);
       background-repeat: no-repeat;
       h5 {
@@ -268,9 +274,6 @@ main {
       }
     }
     .tower {
-      width: 100%;
-      max-width: 350px;
-      height: 560px;
       background-image: url(../img/tower.png);
       background-repeat: no-repeat;
       h5 {
@@ -307,9 +310,7 @@ main {
       }
     }
     .prototype {
-      width: 100%;
-      max-width: 350px;
-      height: 560px;
+
       background-repeat: no-repeat;
       background-image: url(../img/protaype.png);
       h5 {
