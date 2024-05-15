@@ -155,6 +155,7 @@ a {
   flex-direction: column;
   align-items: center;
   position: fixed;
+  padding-left: 15px;
 }
 .home-logo .line {
   width: 1px;
@@ -720,4 +721,11 @@ main .leaders .card .list article .rourke {
 main .leaders .card .list article .simpson {
   background-repeat: no-repeat;
   background-image: url(../img/Simpson.png);
+}
+
+@media (max-width: 1350px) {
+  .contianer {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 }/*# sourceMappingURL=import.css.map */
