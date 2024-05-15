@@ -778,5 +778,24 @@ main .leaders .card .list article .simpson {
   .contianer {
     padding-left: 32px;
     padding-right: 32px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .home-logo {
+    display: none;
+  }
+  footer {
+    flex-direction: column;
+    row-gap: 32;
+    background-image: linear-gradient(to top, #eeeff4 90%, #fff 90%);
+    padding-bottom: 48px;
+  }
+  footer nav {
+    flex-direction: column;
+    row-gap: 32px;
+  }
+  footer nav ul {
+    flex-direction: column;
+    row-gap: 32px;
   }
 }/*# sourceMappingURL=import.css.map */
