@@ -74,11 +74,14 @@
             
     }
 }
-@media(max-width:800px){
+
+@media(max-width:860px){
     footer{
         nav{
+            max-width: 475px;
+            column-gap:40px;
             .div-arch{
-                width: 129px;
+                width: 120px;
                 height: 120px;
                 img{
                     width: 58px;
@@ -86,7 +89,13 @@
                 }
             }
         }
+        
     }
 }
+@media(max-width:860px){
+    
+}
+
+
 
    

@@ -759,9 +759,14 @@ main .leaders .card .list article .simpson {
     background-image: url(../img/protaype-tablet.png);
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 860px) {
+  footer nav {
+    max-width: 475px;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
+  }
   footer nav .div-arch {
-    width: 129px;
+    width: 120px;
     height: 120px;
   }
   footer nav .div-arch img {
