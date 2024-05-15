@@ -104,4 +104,18 @@ main {
     }
 
   }
+  .leaders{
+    display: flex;
+    justify-content: space-between;
+    h4{
+      font-family: League Spartan;
+      font-size: 72px;
+      font-weight: 700;
+      line-height: 64px;
+      letter-spacing: -2px;
+      text-align: left;
+      color: #1B1D23;
+
+    }
+  }
 }

@@ -634,4 +634,17 @@ main .heritage .paragrif p {
   line-height: 24px;
   text-align: left;
   color: #60636D;
+}
+main .leaders {
+  display: flex;
+  justify-content: space-between;
+}
+main .leaders h4 {
+  font-family: League Spartan;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -2px;
+  text-align: left;
+  color: #1B1D23;
 }/*# sourceMappingURL=import.css.map */
