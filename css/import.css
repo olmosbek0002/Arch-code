@@ -689,6 +689,22 @@ main .leaders .card .list article div {
   width: 100%;
   max-width: 350px;
   height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+}
+main .leaders .card .list article div a {
+  display: none;
+}
+main .leaders .card .list article div:hover {
+  cursor: pointer;
+  opacity: 50%;
+  background-color: #1B1D23;
+}
+main .leaders .card .list article div:hover a {
+  display: block;
 }
 main .leaders .card .list article .richards {
   background-image: url(../img/Richards.png);
