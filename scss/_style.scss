@@ -170,6 +170,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
     .team {
       display: flex;
       flex-direction: column;
@@ -178,7 +179,6 @@ main {
       width: 100%;
       max-width: 445px;
       margin-left: 190px;
-      margin-top: 167px;
       h3 {
         font-family: League Spartan;
         font-size: 72px;

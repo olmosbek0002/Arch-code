@@ -324,7 +324,6 @@ main .small .team {
   width: 100%;
   max-width: 445px;
   margin-left: 190px;
-  margin-top: 167px;
 }
 main .small .team h3 {
   font-family: League Spartan;
@@ -703,11 +702,12 @@ main .leaders .card .list article .simpson {
 }
 @media (max-width: 1010px) {
   .project {
+    display: flex;
     background-image: url(../img/project-tablet.png);
+    justify-content: center;
   }
   .project .project-info {
     padding-left: 58px;
-    max-width: 800px;
   }
   .section-btn {
     display: none;
@@ -723,6 +723,13 @@ main .leaders .card .list article .simpson {
   main .studio .studio-info {
     margin-left: 0;
     max-width: 100%;
+  }
+  main .small {
+    justify-content: center;
+    align-items: center;
+  }
+  main .small .team {
+    margin: 0;
   }
   main .card {
     flex-direction: column;
@@ -756,5 +763,9 @@ main .leaders .card .list article .simpson {
   footer nav .div-arch {
     width: 129px;
     height: 120px;
+  }
+  footer nav .div-arch img {
+    width: 58px;
+    height: 24px;
   }
 }/*# sourceMappingURL=import.css.map */

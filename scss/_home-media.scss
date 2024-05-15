@@ -7,12 +7,15 @@
 }
 @media(max-width:1010px){
     .project{
+        display: flex;
 
         background-image:url(../img/project-tablet.png);
+        justify-content: center;
+        
         .project-info{
             padding-left: 58px;
-            max-width: 800px;
-        }
+            
+        }   
     }
     .section-btn{
         display: none;
@@ -30,6 +33,13 @@
                 max-width: 100%;
             }
             
+        }
+        .small{
+            justify-content: center;
+            align-items: center;
+            .team{
+                margin: 0;
+            }
         }
         .card{
             flex-direction: column;
@@ -70,6 +80,10 @@
             .div-arch{
                 width: 129px;
                 height: 120px;
+                img{
+                    width: 58px;
+                    height: 24px;
+                }
             }
         }
     }
