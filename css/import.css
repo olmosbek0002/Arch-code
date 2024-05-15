@@ -310,6 +310,7 @@ main .small {
   height: 560px;
   background-image: url(../img/small-team.png);
   background-position: right top;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -723,9 +724,8 @@ main .leaders .card .list article .simpson {
   background-image: url(../img/Simpson.png);
 }
 
-@media (max-width: 1350px) {
-  .contianer {
-    margin-left: 100px;
-    margin-right: 100px;
+@media (max-width: 1300px) {
+  .section-btn {
+    display: none;
   }
 }/*# sourceMappingURL=import.css.map */
