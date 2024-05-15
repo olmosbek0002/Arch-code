@@ -376,7 +376,7 @@ main .card {
 main .card div {
   width: 100%;
   max-width: 350px;
-  height: 560px;
+  max-height: 560px;
 }
 main .card div h5 {
   font-family: League Spartan;
@@ -727,11 +727,16 @@ main .leaders .card .list article .simpson {
   }
   main .card div {
     max-width: 1010px;
-    height: 240px;
     background-size: cover;
+    height: 240px;
   }
   main .card div h5 {
+    margin-bottom: 0px;
+    margin-top: 29px;
     margin-right: 11px;
+  }
+  main .card div .info {
+    margin-top: -80px;
   }
   main .card .de-sol {
     background-image: url(../img/de-sol-tablet.png);
@@ -741,5 +746,11 @@ main .leaders .card .list article .simpson {
   }
   main .card .prototype {
     background-image: url(../img/protaype-tablet.png);
+  }
+}
+@media (max-width: 800px) {
+  footer nav .div-arch {
+    width: 129px;
+    height: 120px;
   }
 }/*# sourceMappingURL=import.css.map */
