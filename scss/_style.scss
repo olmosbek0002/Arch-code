@@ -234,13 +234,7 @@ main {
       width: 100%;
       max-width: 350px;
       height: 560px;
-    }
-
-    .de-sol {
-      
-      background-image: url(../img/de-sol.png);
-      background-repeat: no-repeat;
-      h5 {
+      h5{
         font-family: League Spartan;
         font-size: 250px;
         font-weight: 700;
@@ -253,6 +247,13 @@ main {
         margin-right: -16px;
         margin-bottom: 212px;
       }
+    }
+
+    .de-sol {
+      
+      background-image: url(../img/de-sol.png);
+      background-repeat: no-repeat;
+      
       .info {
         margin-left: 40px;
         h4 {
@@ -276,19 +277,7 @@ main {
     .tower {
       background-image: url(../img/tower.png);
       background-repeat: no-repeat;
-      h5 {
-        font-family: League Spartan;
-        font-size: 250px;
-        font-weight: 700;
-        line-height: 200px;
-        letter-spacing: -5px;
-        text-align: right;
-        color: #ffffff;
-        opacity: 50%;
-        margin-top: 45px;
-        margin-right: -16px;
-        margin-bottom: 212px;
-      }
+
       .info {
         margin-left: 40px;
         h4 {
@@ -313,19 +302,7 @@ main {
 
       background-repeat: no-repeat;
       background-image: url(../img/protaype.png);
-      h5 {
-        font-family: League Spartan;
-        font-size: 250px;
-        font-weight: 700;
-        line-height: 200px;
-        letter-spacing: -5px;
-        text-align: right;
-        color: #ffffff;
-        opacity: 50%;
-        margin-top: 45px;
-        margin-right: -16px;
-        margin-bottom: 212px;
-      }
+
       .info {
         margin-left: 40px;
         h4 {

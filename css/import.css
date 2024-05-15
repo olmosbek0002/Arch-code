@@ -378,11 +378,7 @@ main .card div {
   max-width: 350px;
   height: 560px;
 }
-main .card .de-sol {
-  background-image: url(../img/de-sol.png);
-  background-repeat: no-repeat;
-}
-main .card .de-sol h5 {
+main .card div h5 {
   font-family: League Spartan;
   font-size: 250px;
   font-weight: 700;
@@ -394,6 +390,10 @@ main .card .de-sol h5 {
   margin-top: 45px;
   margin-right: -16px;
   margin-bottom: 212px;
+}
+main .card .de-sol {
+  background-image: url(../img/de-sol.png);
+  background-repeat: no-repeat;
 }
 main .card .de-sol .info {
   margin-left: 40px;
@@ -418,19 +418,6 @@ main .card .tower {
   background-image: url(../img/tower.png);
   background-repeat: no-repeat;
 }
-main .card .tower h5 {
-  font-family: League Spartan;
-  font-size: 250px;
-  font-weight: 700;
-  line-height: 200px;
-  letter-spacing: -5px;
-  text-align: right;
-  color: #ffffff;
-  opacity: 50%;
-  margin-top: 45px;
-  margin-right: -16px;
-  margin-bottom: 212px;
-}
 main .card .tower .info {
   margin-left: 40px;
 }
@@ -453,19 +440,6 @@ main .card .tower .info p {
 main .card .prototype {
   background-repeat: no-repeat;
   background-image: url(../img/protaype.png);
-}
-main .card .prototype h5 {
-  font-family: League Spartan;
-  font-size: 250px;
-  font-weight: 700;
-  line-height: 200px;
-  letter-spacing: -5px;
-  text-align: right;
-  color: #ffffff;
-  opacity: 50%;
-  margin-top: 45px;
-  margin-right: -16px;
-  margin-bottom: 212px;
 }
 main .card .prototype .info {
   margin-left: 40px;
@@ -728,6 +702,9 @@ main .leaders .card .list article .simpson {
   }
 }
 @media (max-width: 1010px) {
+  .project {
+    background-image: url(../img/project-tablet.png);
+  }
   .section-btn {
     display: none;
   }
@@ -752,6 +729,9 @@ main .leaders .card .list article .simpson {
     max-width: 1010px;
     height: 240px;
     background-size: cover;
+  }
+  main .card div h5 {
+    margin-right: 11px;
   }
   main .card .de-sol {
     background-image: url(../img/de-sol-tablet.png);

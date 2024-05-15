@@ -6,6 +6,9 @@
     
 }
 @media(max-width:1010px){
+    .project{
+        background-image:url(../img/project-tablet.png)
+    }
     .section-btn{
         display: none;
     }
@@ -31,7 +34,21 @@
                 max-width: 1010px;
                 height: 240px;
                 background-size:cover;
+                h5{
+                    margin-right: 11px;
+                }
             }
+            .de-sol{
+                background-image: url(../img/de-sol-tablet.png);
+            }
+            .tower{
+                background-image: url(../img/tover-tablet.png);
+            }
+            .prototype{
+                background-image: url(../img/protaype-tablet.png);
+            }
+
+        }
             
     }
 }
