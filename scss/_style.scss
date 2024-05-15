@@ -28,6 +28,9 @@
 }
 header {
   padding: 56px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   nav {
     width: 100%;
     max-width: 504px;
@@ -54,6 +57,21 @@ header {
           }
         }
       }
+    }
+
+  }
+  .gamburger{
+    
+
+    height: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    div{
+      display: none;
+      width: 24px;
+      height: 3px;
+      background-color: #1B1D23;
     }
   }
 }
