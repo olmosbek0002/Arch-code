@@ -7,7 +7,12 @@
 }
 @media(max-width:1010px){
     .project{
-        background-image:url(../img/project-tablet.png)
+
+        background-image:url(../img/project-tablet.png);
+        .project-info{
+            padding-left: 58px;
+            max-width: 800px;
+        }
     }
     .section-btn{
         display: none;

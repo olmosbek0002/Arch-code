@@ -705,6 +705,10 @@ main .leaders .card .list article .simpson {
   .project {
     background-image: url(../img/project-tablet.png);
   }
+  .project .project-info {
+    padding-left: 58px;
+    max-width: 800px;
+  }
   .section-btn {
     display: none;
   }
