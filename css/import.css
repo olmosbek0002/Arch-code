@@ -773,4 +773,10 @@ main .leaders .card .list article .simpson {
     width: 58px;
     height: 24px;
   }
+}
+@media (max-width: 790px) {
+  .contianer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }/*# sourceMappingURL=import.css.map */
