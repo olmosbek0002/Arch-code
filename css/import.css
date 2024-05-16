@@ -918,11 +918,29 @@ main .leaders .cart .list article .simpson {
     flex-direction: column;
     row-gap: 49px;
   }
-  main .leaders .card {
+  main .leaders .cart {
     max-width: 900px;
   }
-  main .leaders .card .list {
+  main .leaders .cart .list {
     width: 100%;
     max-width: 900px;
+  }
+}
+@media (max-width: 850px) {
+  main .about .info {
+    max-width: 600px;
+  }
+  main .about .info h3 {
+    font-size: 250px;
+    font-weight: 700;
+    line-height: 200px;
+    letter-spacing: -5px;
+  }
+}
+@media (max-width: 770px) {
+  main .leaders .cart .list {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 79px;
   }
 }/*# sourceMappingURL=import.css.map */
