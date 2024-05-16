@@ -943,4 +943,12 @@ main .leaders .cart .list article .simpson {
     align-items: center;
     row-gap: 79px;
   }
+}
+@media (max-width: 750px) {
+  main .about .info h3 {
+    font-size: 120px;
+    line-height: 200px;
+    letter-spacing: -3px;
+    margin-right: 0px;
+  }
 }/*# sourceMappingURL=import.css.map */
