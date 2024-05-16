@@ -678,6 +678,7 @@ main .leaders .cart .list article p {
   opacity: 75%;
 }
 main .leaders .cart .list article div {
+  background-size: cover;
   width: 100%;
   max-width: 350px;
   height: 320px;
@@ -945,10 +946,92 @@ main .leaders .cart .list article .simpson {
   }
 }
 @media (max-width: 750px) {
+  main .about .info {
+    margin-bottom: -2px;
+  }
   main .about .info h3 {
     font-size: 120px;
     line-height: 200px;
     letter-spacing: -3px;
     margin-right: 0px;
+  }
+}
+@media (max-width: 670px) {
+  main .about {
+    height: 240px;
+    justify-content: flex-start;
+    background-image: url(../img/about-mobele.png);
+  }
+  main .about .info {
+    padding-top: 25px;
+    transform: translateX(-40px);
+    height: 150px;
+    margin-bottom: -125px;
+    padding-bottom: 145px;
+  }
+  main .about .info h3 {
+    display: none;
+  }
+  main .about .info .your-of h4 {
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -1.2000000477px;
+  }
+  main .about .info .your-of p {
+    width: 100%;
+    max-width: 340px;
+  }
+  main .heritage {
+    margin-top: 410px;
+  }
+  main .heritage h4 {
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -1.7142857313px;
+    max-width: 225px;
+  }
+  main .heritage .paragrif {
+    height: 384px;
+    gap: 10px;
+  }
+  main .leaders h4 {
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -1.7142857313px;
+    max-width: 225px;
+  }
+  main .leaders .cart .list article h5 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+}
+@media (max-width: 545px) {
+  main .about .info {
+    transform: translateX(-40px);
+    padding-left: 40px;
+  }
+  main .about .info h4 {
+    margin-bottom: -100px;
+  }
+}
+@media (max-width: 380px) {
+  main .about .info .your-of h4 {
+    font-size: 38px;
+  }
+  main .leaders .card .list article {
+    background-size: 300px;
+  }
+  main .leaders .card .list .richards {
+    background-image: url(../img/richards-mobele.png);
+  }
+  main .leaders .card .list .smith {
+    background-image: url(../img/smith-mobele.png);
+  }
+  main .leaders .card .list .rourke {
+    background-image: url(../img/rourke-mobele.png);
+  }
+  main .leaders .card .list .simpson {
+    background-image: url(../img/simpson-mobele.png);
   }
 }/*# sourceMappingURL=import.css.map */

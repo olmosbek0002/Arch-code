@@ -53,7 +53,9 @@
 @media (max-width: 750px) {
   main {
     .about {
+      
       .info {
+        margin-bottom: -2px;
         h3 {
           font-size: 120px;
           line-height: 200px;
@@ -64,3 +66,125 @@
     }
   }
 }
+@media (max-width: 670px){
+  main{
+    .about{
+      height: 240px;
+      justify-content: flex-start;
+      background-image: url(../img/about-mobele.png);
+      
+      .info{
+        padding-top: 25px;
+        transform: translateX(-40px);
+        height: 150px;
+        margin-bottom: -125px;
+        padding-bottom: 145px;
+        h3{
+          display: none;
+        }
+        .your-of{
+          h4{
+            font-size: 48px;
+            line-height: 52px;
+            letter-spacing: -1.2000000476837158px;
+
+          }
+          p{
+            width: 100%;
+            max-width: 340px;
+          }
+        }
+      }
+      
+    }
+    .heritage{
+      margin-top: 410px;
+      h4{
+        font-size: 48px;
+        line-height: 52px;
+        letter-spacing: -1.7142857313156128px;
+        max-width: 225px;
+      }
+      .paragrif{
+        height: 384px;
+        gap: 10px;
+      }
+    }
+    .leaders{
+      h4{
+        font-size: 48px;
+        line-height: 52px;
+        letter-spacing: -1.7142857313156128px;
+        max-width: 225px;
+
+      }
+      .cart{
+        .list{
+          article{
+            h5{
+              font-size: 32px;
+              font-weight: 700;
+              line-height: 40px;
+
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
+@media (max-width: 545px){
+  main{
+    .about{
+      .info{
+        transform: translateX(-40px);
+        padding-left: 40px;
+        h4{
+          margin-bottom: -100px;
+          
+        }
+      }
+    }
+
+  }
+}
+@media (max-width: 380px){
+  main{
+    .about{
+      .info{
+        .your-of{
+          h4{
+            font-size: 38px;
+          }
+        }
+      }
+    }
+    .leaders{
+      .card{
+        .list{
+          article{
+              background-size: 300px;
+            }
+            .richards{
+              background-image: url(../img/richards-mobele.png);
+            }
+            .smith{
+              background-image:url(../img/smith-mobele.png);
+
+            }
+            .rourke{
+              background-image:url(../img/rourke-mobele.png);
+            }
+            .simpson{
+              background-image:url(../img/simpson-mobele.png);
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+
