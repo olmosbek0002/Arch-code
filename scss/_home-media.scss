@@ -146,7 +146,25 @@
         }
 
     }
-    
+    main{
+        .studio{
+            h2{
+                display: none;
+            }
+          
+            .studio-info{
+                h3{
+                    width: 100%;
+                    max-width: 320px;
+                    font-size: 48px;
+                    line-height: 52px;
+                    letter-spacing: -1.7142857313156128px;
+
+
+                }
+            }
+        }
+    }
     
 }
 

@@ -833,4 +833,14 @@ main .leaders .card .list article .simpson {
     line-height: 48px;
     letter-spacing: -1.2000000477px;
   }
+  main .studio h2 {
+    display: none;
+  }
+  main .studio .studio-info h3 {
+    width: 100%;
+    max-width: 320px;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -1.7142857313px;
+  }
 }/*# sourceMappingURL=import.css.map */
