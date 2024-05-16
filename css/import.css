@@ -843,4 +843,22 @@ main .leaders .card .list article .simpson {
     line-height: 52px;
     letter-spacing: -1.7142857313px;
   }
+  main .studio .studio-info .line {
+    width: 65px;
+    height: 1px;
+    background-color: #C8CCD8;
+    margin-bottom: 68px;
+    margin-top: 77px;
+  }
+  main .small {
+    height: 560px;
+  }
+  main .small .team {
+    max-width: 300px;
+  }
+  main .small .team h3 {
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -1.7142857313px;
+  }
 }/*# sourceMappingURL=import.css.map */
