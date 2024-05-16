@@ -861,4 +861,13 @@ main .leaders .card .list article .simpson {
     line-height: 52px;
     letter-spacing: -1.7142857313px;
   }
+  main .featured button {
+    display: none;
+  }
+  main .card div h5 {
+    display: none;
+  }
+  main .card div .info {
+    margin-top: 153px;
+  }
 }/*# sourceMappingURL=import.css.map */
