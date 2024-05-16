@@ -1,0 +1,29 @@
+@media(max-width:1010px){
+    main{
+        .heritage{
+            background-image:none;
+            width: 100%;
+           
+            .paragrif{
+                width: 100%;
+                max-width: 850px;
+            }
+        }
+        .leaders{
+            flex-direction: column;
+            row-gap:49px;
+            .card{
+                max-width: 900px;
+                .list{
+                    width: 100%;
+                    max-width: 900px;  
+                }
+            }
+
+            
+            
+        }
+
+    }
+    
+}

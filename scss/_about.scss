@@ -1,3 +1,4 @@
+
 main {
   .about {
     background-image: url(../img/About.png);
@@ -16,6 +17,7 @@ main {
       align-items: flex-end;
       background-color: #fff;
       justify-content: space-between;
+      // margin-bottom: -2px;
       
 
       h3{
@@ -119,16 +121,18 @@ main {
       color: #1B1D23;
 
     }
-    .card{
-      
-      width: 100%;
-      max-width: 730px;
+    .cart{
       display: flex;
       flex-direction: column;
       row-gap: 63px;
+      width:100%;
+      max-width: 730px;
       .list{
+        width:100%;
+        max-width: 730px;
         display: flex;
         column-gap: 30px;
+        justify-content: space-between;
         article{
           width: 100%;
           max-width: 350px;
