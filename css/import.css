@@ -821,4 +821,16 @@ main .leaders .card .list article .simpson {
   header .gamburger div {
     display: block;
   }
+  .project {
+    height: 560px;
+  }
+  .project .project-info {
+    max-width: 320px;
+    padding: 116px 0px 0px 0px;
+  }
+  .project .project-info h1 {
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1.2000000477px;
+  }
 }/*# sourceMappingURL=import.css.map */
