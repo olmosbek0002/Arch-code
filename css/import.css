@@ -387,6 +387,9 @@ main .card {
   -moz-column-gap: 5px;
        column-gap: 5px;
 }
+main .card button {
+  display: none;
+}
 main .card div {
   width: 100%;
   max-width: 350px;
@@ -815,6 +818,10 @@ main .leaders .card .list article .simpson {
   }
 }
 @media (max-width: 570px) {
+  header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
   header nav ul {
     display: none;
   }
@@ -851,6 +858,8 @@ main .leaders .card .list article .simpson {
     margin-top: 77px;
   }
   main .small {
+    background-image: url(../img/small-mobele.png);
+    margin-top: 113px;
     height: 560px;
   }
   main .small .team {
@@ -861,13 +870,35 @@ main .leaders .card .list article .simpson {
     line-height: 52px;
     letter-spacing: -1.7142857313px;
   }
+  main .featured {
+    margin-top: 73px;
+    margin-bottom: 43px;
+  }
   main .featured button {
     display: none;
+  }
+  main .card button {
+    margin-top: 24px;
+    display: flex;
+    width: 100%;
+    height: 72px;
+    justify-content: center;
+  }
+  main .card button p {
+    font-family: League Spartan;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: right;
+    color: #fff;
   }
   main .card div h5 {
     display: none;
   }
   main .card div .info {
     margin-top: 153px;
+  }
+  footer {
+    margin-top: 72px;
   }
 }/*# sourceMappingURL=import.css.map */

@@ -248,6 +248,9 @@ main {
     justify-content: space-between;
     align-items: center;
     column-gap: 5px;
+    button{
+      display: none;
+    }
     div{
       width: 100%;
       max-width: 350px;
