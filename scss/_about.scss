@@ -1,4 +1,3 @@
-
 main {
   .about {
     background-image: url(../img/About.png);
@@ -8,7 +7,7 @@ main {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    .info{
+    .info {
       width: 100%;
       max-width: 645px;
       height: 505px;
@@ -18,67 +17,63 @@ main {
       background-color: #fff;
       justify-content: space-between;
       // margin-bottom: -2px;
-      
 
-      h3{
+      h3 {
         font-family: League Spartan;
         font-size: 250px;
         font-weight: 700;
         line-height: 200px;
         letter-spacing: -5px;
         text-align: right;
-        color: #EEEFF4;
-        
-        transform: translate(-25px, -80px);
+        color: #eeeff4;
 
+        transform: translate(-25px, -80px);
       }
-      .your-of{
+      .your-of {
         width: 100%;
         height: 341px;
         max-width: 446px;
         transform: translateY(-25px);
-        .line{
+        .line {
           width: 65px;
           height: 1px;
           left: 1px;
-          background-color: #C8CCD8;
-
+          background-color: #c8ccd8;
         }
-        h4{
+        h4 {
           font-family: League Spartan;
           font-size: 72px;
           font-weight: 700;
           line-height: 64px;
           letter-spacing: -2px;
           text-align: left;
-          color: #1B1D23;
+          color: #1b1d23;
           margin-top: 57px;
           margin-bottom: 49px;
         }
-        p{
+        p {
           font-family: League Spartan;
           font-size: 18px;
           font-weight: 500;
           line-height: 24px;
           text-align: left;
-          color: #60636D;
-
+          color: #60636d;
         }
       }
     }
   }
-  .heritage{
+  .heritage {
     background-image: url(../img/heritoge.png);
     background-repeat: no-repeat;
     background-position: top right;
     height: 568px;
     margin-top: 200px;
-    .line{
-      width: 65px ;
-      height: 1px ;
-      background-color:#C8CCD8;
+    .line {
+      width: 65px;
+      height: 1px;
+      background-color: #c8ccd8;
     }
-    h4{
+    h4 {
       padding-top: 100px;
       width: 100%;
       max-width: 350px;
@@ -89,33 +84,29 @@ main {
       letter-spacing: -2px;
       text-align: left;
       margin-bottom: 51px;
-
     }
-    .paragrif{
+    .paragrif {
       width: 100%;
       max-width: 445px;
       height: 288px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      p{
+      p {
         font-family: League Spartan;
         font-size: 18px;
         font-weight: 500;
         line-height: 24px;
         text-align: left;
-        color: #60636D;
-
+        color: #60636d;
       }
-      
     }
-
   }
-  .leaders{
+  .leaders {
     margin-top: 200px;
     display: flex;
     justify-content: space-between;
-    h4{
+    h4 {
       width: 350px;
       font-family: League Spartan;
       font-size: 72px;
@@ -123,86 +114,79 @@ main {
       line-height: 64px;
       letter-spacing: -2px;
       text-align: left;
-      color: #1B1D23;
-
+      color: #1b1d23;
     }
-    .cart{
+    .cart {
       display: flex;
       flex-direction: column;
       row-gap: 63px;
-      width:100%;
+      width: 100%;
       max-width: 730px;
-      .list{
-        width:100%;
+      .list {
+        width: 100%;
         max-width: 730px;
         display: flex;
         column-gap: 30px;
         justify-content: space-between;
-        article{
+        article {
           width: 100%;
           max-width: 350px;
-          h5{
+          h5 {
             margin-top: 15px;
             font-family: League Spartan;
             font-size: 32px;
             font-weight: 700;
             line-height: 40px;
             text-align: left;
-            color: #1B1D23;
+            color: #1b1d23;
             // width: 100%;
             width: 350px;
-
           }
-          p{
+          p {
             font-family: League Spartan;
             font-size: 18px;
             font-weight: 500;
             line-height: 24px;
             text-align: left;
-            color: #1B1D23;
+            color: #1b1d23;
             opacity: 75%;
-
           }
-          div{
-            background-size:cover;
-            width:100%;
+          div {
+            background-size: cover;
+            width: 100%;
             max-width: 350px;
             height: 320px;
             display: flex;
             justify-content: center;
-            align-items:center;
+            align-items: center;
             column-gap: 32px;
-            a{
+            a {
               display: none;
             }
-            
-            &:hover{
+
+            &:hover {
               cursor: pointer;
               opacity: 50%;
-              background-color: #1B1D23;
-              a{
+              background-color: #1b1d23;
+              a {
                 display: block;
               }
             }
-
           }
-          .richards{
-            
-            background-image:url(../img/Richards.png);
+          .richards {
+            background-image: url(../img/Richards.png);
             background-repeat: no-repeat;
           }
-          .smith{
-
-            background-repeat:no-repeat;
+          .smith {
+            background-repeat: no-repeat;
             background-image: url(../img/smith.png);
           }
-          .rourke{
-            background-repeat:no-repeat;
+          .rourke {
+            background-repeat: no-repeat;
             background-image: url(../img/Rourke.png);
-
           }
-          .simpson{
-            background-repeat:no-repeat;
+          .simpson {
+            background-repeat: no-repeat;
             background-image: url(../img/Simpson.png);
           }
         }

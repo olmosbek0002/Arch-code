@@ -555,7 +555,7 @@ main .about .info h3 {
   line-height: 200px;
   letter-spacing: -5px;
   text-align: right;
-  color: #EEEFF4;
+  color: #eeeff4;
   transform: translate(-25px, -80px);
 }
 main .about .info .your-of {
@@ -568,7 +568,7 @@ main .about .info .your-of .line {
   width: 65px;
   height: 1px;
   left: 1px;
-  background-color: #C8CCD8;
+  background-color: #c8ccd8;
 }
 main .about .info .your-of h4 {
   font-family: League Spartan;
@@ -577,7 +577,7 @@ main .about .info .your-of h4 {
   line-height: 64px;
   letter-spacing: -2px;
   text-align: left;
-  color: #1B1D23;
+  color: #1b1d23;
   margin-top: 57px;
   margin-bottom: 49px;
 }
@@ -587,7 +587,7 @@ main .about .info .your-of p {
   font-weight: 500;
   line-height: 24px;
   text-align: left;
-  color: #60636D;
+  color: #60636d;
 }
 main .heritage {
   background-image: url(../img/heritoge.png);
@@ -599,7 +599,7 @@ main .heritage {
 main .heritage .line {
   width: 65px;
   height: 1px;
-  background-color: #C8CCD8;
+  background-color: #c8ccd8;
 }
 main .heritage h4 {
   padding-top: 100px;
@@ -627,7 +627,7 @@ main .heritage .paragrif p {
   font-weight: 500;
   line-height: 24px;
   text-align: left;
-  color: #60636D;
+  color: #60636d;
 }
 main .leaders {
   margin-top: 200px;
@@ -642,7 +642,7 @@ main .leaders h4 {
   line-height: 64px;
   letter-spacing: -2px;
   text-align: left;
-  color: #1B1D23;
+  color: #1b1d23;
 }
 main .leaders .cart {
   display: flex;
@@ -670,7 +670,7 @@ main .leaders .cart .list article h5 {
   font-weight: 700;
   line-height: 40px;
   text-align: left;
-  color: #1B1D23;
+  color: #1b1d23;
   width: 350px;
 }
 main .leaders .cart .list article p {
@@ -679,7 +679,7 @@ main .leaders .cart .list article p {
   font-weight: 500;
   line-height: 24px;
   text-align: left;
-  color: #1B1D23;
+  color: #1b1d23;
   opacity: 75%;
 }
 main .leaders .cart .list article div {
@@ -699,7 +699,7 @@ main .leaders .cart .list article div a {
 main .leaders .cart .list article div:hover {
   cursor: pointer;
   opacity: 50%;
-  background-color: #1B1D23;
+  background-color: #1b1d23;
 }
 main .leaders .cart .list article div:hover a {
   display: block;
